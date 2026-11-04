@@ -21,29 +21,23 @@
 - Не переносить рекомендации для 8.3 на 8.1 или 8.5 без проверки режима совместимости и релиза.
 - Не использовать Infostart как единственное подтверждение поведения платформы.
 
-## Полезные официальные ориентиры
+## Тематический указатель официальных материалов
 
-- Система стандартов и методик разработки 1С: https://its.1c.ru/db/v8std
-- Раздел стандартов: создание и изменение объектов метаданных: https://its.1c.ru/db/metadata/v8std/nav_tree/13/-1/7_
-- Методическая поддержка разработчиков и администраторов: https://its.1c.ru/db/metod8dev
-- Работа во встроенном языке с объектами метаданных: https://its.1c.ru/db/content/metod8dev/src/developers/platform/metod/other/i8102318.htm
-- Язык запросов: https://its.1c.ru/db/metod8dev/browse/13/-1/3199/3224/3226/3242
-- Общие требования по разработке оптимальных запросов: https://its.1c.ru/db/content/v8std/src/300/200/i8100729.htm
-- Оформление текстов запросов: https://its.1c.ru/db/content/v8std/src/300/100/i8100437.htm
-- Версия платформы для разработки: https://its.1c.ru/db/content/v8std/src/200/100/i8100785.htm
-- Общие требования к конфигурации: https://its.1c.ru/db/content/v8std/src/200/100/i8100467.htm
-- Система прав доступа: https://v8.1c.ru/platforma/sistema-prav-dostupa/
-- Система компоновки данных: https://v8.1c.ru/platforma/sistema-komponovki-dannykh/
-- Внешние отчеты и обработки: https://v8.1c.ru/platforma/vneshnie-otchety/
-- HTTP-сервисы: https://v8.1c.ru/platforma/http-servisy/
-- REST интерфейс: https://v8.1c.ru/platforma/rest-interfeys/
-- План обмена: https://v8.1c.ru/platforma/plan-obmena/
-- 1С:Автоматизированная проверка конфигураций: https://v8.1c.ru/tekhnologii/1s-avtomatizirovannaya-proverka-konfiguratsiy/
-- Проверка конфигурации платформой: https://v8.1c.ru/platforma/proverka-konfiguracii/
-- 1C:EDT: https://v8.1c.ru/platforma/1c-enterprise-development-tools/
-- Новости платформы и EDT: https://v8.1c.ru/platforma/news/
-- Клиентские приложения: https://v8.1c.ru/platforma/klientskie-prilozheniya/
-- Толстый клиент: https://v8.1c.ru/platforma/tolstyy-klient/
+Используй строку по теме задачи и переходи к первоисточнику. Это указатель, а не офлайн-копия стандартов: сверяй актуальный текст, версию платформы и область применения перед выводом.
+
+| Тема | Официальные материалы |
+|---|---|
+| Стандарты, метаданные и BSL | [система стандартов 1С](https://its.1c.ru/db/v8std), [общие требования к конфигурации](https://its.1c.ru/db/content/v8std/src/200/100/i8100467.htm), [изменение объектов метаданных](https://its.1c.ru/db/metadata/v8std/nav_tree/13/-1/7_), [методическая поддержка](https://its.1c.ru/db/metod8dev), [работа с объектами метаданных](https://its.1c.ru/db/content/metod8dev/src/developers/platform/metod/other/i8102318.htm) |
+| Запросы | [язык запросов](https://its.1c.ru/db/metod8dev/browse/13/-1/3199/3224/3226/3242), [передача параметров](https://its.1c.ru/db/pubqlang/content/60/hdoc), [оптимизация](https://its.1c.ru/db/content/v8std/src/300/200/i8100729.htm), [оформление текста](https://its.1c.ru/db/content/v8std/src/300/100/i8100437.htm), [многократные запросы](https://its.1c.ru/db/content/v8std/src/300/100/i8100436.htm), [ОБЪЕДИНИТЬ](https://its.1c.ru/db/content/v8std/src/300/100/i8100434.htm) |
+| Версии и совместимость | [версия платформы для разработки](https://its.1c.ru/db/content/v8std/src/200/100/i8100785.htm), [новости платформы и EDT](https://v8.1c.ru/platforma/news/) |
+| Права и RLS | [система прав доступа](https://v8.1c.ru/platforma/sistema-prav-dostupa/) |
+| Формы и клиенты | [клиентские приложения](https://v8.1c.ru/platforma/klientskie-prilozheniya/), [толстый клиент](https://v8.1c.ru/platforma/tolstyy-klient/), [пример запуска обычной формы](https://v8.1c.ru/obuchenie-programmistov/primery-razrabotki/otchyet_obrabotka/kak_v_upravlyaemom_rezhime_otkryt_staruyu_formu_obrabotki.htm) |
+| СКД и отчёты | [система компоновки данных](https://v8.1c.ru/platforma/sistema-komponovki-dannykh/), [внешние отчёты и обработки](https://v8.1c.ru/platforma/vneshnie-otchety/), [локализация запросов и СКД](https://its.1c.ru/db/content/v8std/src/1%C2%A0000/i8100762.htm) |
+| Интеграции | [HTTP-сервисы](https://v8.1c.ru/platforma/http-servisy/), [REST-интерфейс](https://v8.1c.ru/platforma/rest-interfeys/), [планы обмена](https://v8.1c.ru/platforma/plan-obmena/) |
+| Расширения | [руководство разработчика, глава о расширениях](https://its.1c.ru/db/v854doc/bookmark/dev/TI000001513), [материал об адаптации решений через расширения](https://its.1c.ru/db/pubextensions/content/51/hdoc) |
+| БСП | [1С:Библиотека стандартных подсистем](https://v8.1c.ru/platforma/1s-biblioteka-standartnyh-podsistem/) |
+| Качество | [АПК](https://v8.1c.ru/tekhnologii/1s-avtomatizirovannaya-proverka-konfiguratsiy/), [проверка конфигурации платформой](https://v8.1c.ru/platforma/proverka-konfiguracii/), [1C:EDT](https://v8.1c.ru/platforma/1c-enterprise-development-tools/) |
+| Стандартные библиотеки | [стандартные библиотеки 1С](https://v8.1c.ru/tekhnologii/standartnye-biblioteki/) |
 
 ## Как отделять факты от рекомендаций
 

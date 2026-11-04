@@ -164,14 +164,4 @@
 10. Проверка и критерии готовности.
 11. Официальные источники, если утверждения зависят от стандартов, платформы или сложных запросов.
 
-## Официальные ориентиры
-
-- Система стандартов и методик разработки 1С: https://its.1c.ru/db/v8std
-- Раздел стандартов: создание и изменение объектов метаданных: https://its.1c.ru/db/metadata/v8std/nav_tree/13/-1/7_
-- Методическая поддержка разработчиков: https://its.1c.ru/db/metod8dev
-- Работа во встроенном языке с объектами метаданных: https://its.1c.ru/db/content/metod8dev/src/developers/platform/metod/other/i8102318.htm
-- Внешние отчеты: https://v8.1c.ru/platforma/vneshnie-otchety/
-- Система компоновки данных: https://v8.1c.ru/platforma/sistema-komponovki-dannykh/
-- Система прав доступа: https://v8.1c.ru/platforma/sistema-prav-dostupa/
-- 1С:Автоматизированная проверка конфигураций: https://v8.1c.ru/tekhnologii/1s-avtomatizirovannaya-proverka-konfiguratsiy/
-- Проверка конфигурации платформой: https://v8.1c.ru/platforma/proverka-konfiguracii/
+Подбирай первоисточники по конкретной области через `references/source-policy-1c.md`; не загружай общий список ссылок для каждого этапа создания объекта.

@@ -63,9 +63,4 @@
 5. Права и обновляемость.
 6. Проверка: толстый/тонкий/web-клиент, права разных ролей, пустые данные, большие объёмы, расширение против основной конфигурации.
 
-## Официальные ориентиры
-
-- Как в управляемом режиме открыть старую форму обработки: https://v8.1c.ru/obuchenie-programmistov/primery-razrabotki/otchyet_obrabotka/kak_v_upravlyaemom_rezhime_otkryt_staruyu_formu_obrabotki.htm
-- Клиентские приложения: https://v8.1c.ru/platforma/klientskie-prilozheniya/
-- Толстый клиент: https://v8.1c.ru/platforma/tolstyy-klient/
-- Новости платформы и EDT: https://v8.1c.ru/platforma/news/
+Для официальных подтверждений используй раздел «Формы и клиенты» в `references/source-policy-1c.md`; учитывай дату и область применимости примеров.

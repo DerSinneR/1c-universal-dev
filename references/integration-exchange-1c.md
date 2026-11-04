@@ -51,9 +51,4 @@
 5. Производительность и повторы.
 6. Проверка: успешный обмен, дубль сообщения, ошибка внешней системы, таймаут, частичная загрузка, повторный запуск.
 
-## Официальные ориентиры
-
-- HTTP-сервисы: https://v8.1c.ru/platforma/http-servisy/
-- REST интерфейс: https://v8.1c.ru/platforma/rest-interfeys/
-- План обмена: https://v8.1c.ru/platforma/plan-obmena/
-- Система прав доступа: https://v8.1c.ru/platforma/sistema-prav-dostupa/
+Для официальных ссылок используй разделы «Интеграции» и «Права и RLS» в `references/source-policy-1c.md`.
